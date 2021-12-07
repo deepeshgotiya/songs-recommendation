@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.button {
+  height: 2rem;
+  width: 7rem;
+  margin: 1rem 1rem;
+  background-color: #ddd6fe;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  background-color: #ddd6fe;
+  border-radius: 1rem;
+  font-family: "Poppins", sans-serif;
+  /* box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.41); */
+}
+.heading {
+  background-color: blue;
+  border-radius: 1rem;
+  color: white;
+}
+.button:hover {
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.41);
+  border: 1px solid blueviolet;
+  background-color: #60a5fa;
+}
+.card:hover {
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.41);
+  background-color: #60a5fa;
+  font-size: 1rem;
+}
+.heading:hover {
+  color: #60a5fa;
+}
